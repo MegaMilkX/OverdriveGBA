@@ -26,7 +26,7 @@ int main()
 	
 	DMAFastCopy(GIRLPalette, MEM_SPRITE_PAL, sizeof(GIRLPalette), DMA_16NOW);
 	
-	DMAFastCopy((void*)GIRLData, MEM_SPRITE_DATA, sizeof(GIRLData), DMA_16NOW);
+	DMAFastCopy(GIRLData, MEM_SPRITE_DATA, sizeof(GIRLData), DMA_16NOW);
 	
 	
 	while(1)
