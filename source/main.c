@@ -3,6 +3,8 @@
 
 #include "girl.h"
 
+void UploadSpriteData(void* data, unsigned int size);
+
 int main()
 {
 	
