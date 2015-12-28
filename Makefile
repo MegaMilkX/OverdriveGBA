@@ -168,5 +168,4 @@ endif
 #--------------------------------------------------------------------------------
 
 run:
-	C:\My_Documents\Games\GBA\VisualBoyAdvance $(OUTPUT).gba
-
+	$(GBA_EMULATOR_PATH) $(OUTPUT).gba
